@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* padding jate border er baire na jai box er bhitorei thake shei jnno use kora hoise */
+}
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+nav{
+    display: flex;
+    max-width: 1600px;
+    max-height: 92px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo img{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 32px;
+}
+.btn{
+   background-color: #469165;
+    border: none;
+    border-radius: 5px;
+    width: 164px;
+    height: 44px;
+    font-size: 16px;
+    color: white;
+    font-weight: 500px;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+
+
+
