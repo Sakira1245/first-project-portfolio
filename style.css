@@ -41,5 +41,160 @@ nav ul li{
     cursor: pointer;
 }
 
+#hero-section{
+   background-image: url(./assets/hero-bg.png);
+   height: 674px;
+   max-width: 1600px;
+}
 
+.hero-container{
+    padding: 115px 120px 120px 180px;
+    text-align: center;
+    align-items: center;
+}
+
+#btn-white{
+    width: 229px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: white;
+    color: #469165;
+    font-size: 16px;
+    align-items: center;
+    border-style: none;
+}
+
+.hero-content h1{
+    color: white;
+    font-size: 72px;
+    line-height: 84px;
+    font-weight: bold;
+    padding-top: 16px;
+    margin: 0 auto;
+    width: 770px;
+}
+
+.hero-content p{
+    padding-top: 16px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+    max-width: 1360px;
+    height: 60px;
+}
+
+.hero-button{
+    padding-top: 32px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+#transparent{
+    border-style: none;
+    width: 198px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 4px;
+    padding: 16px;
+}
+
+#notes-section{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.notes-container h2{
+    font-weight: bold;
+    font-size: 48px;
+    padding-bottom: 16px;
+    color: #001931;
+}
+
+.notes-container p{
+    font-size: 16px;
+    padding-bottom: 16px;
+    color: #627382;
+    line-height: 20px;
+    text-align: center;
+}
+
+.notes-card-container{
+    display: flex;
+    max-width: 1360px;
+    max-height: 300px;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#notes{
+    padding-top: 50px;
+}
+
+.notes-container{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.card-heading{
+    margin: 0 auto;
+    max-width: 1360px;
+    text-align: center;
+}
+
+.card-heading h4{
+    font-weight: bold;
+    font-size: 48px;
+    padding-bottom: 16px;
+    color: #001931;
+}
+
+.card-heading p{
+    font-weight: 200px;
+    line-height: 20px;
+    font-size: 16px;
+    color: #627382;
+    padding-bottom: 48px;
+}
+
+.section-card{
+    display: flex;
+    max-width: 1360px;
+    gap: 24px;
+}
+
+.notes-card{
+    max-width: 322px;
+    max-height: 300px;
+    padding: 24px;
+    text-align: center;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    background-image: url(./assets/Ellipse.png);
+    background-repeat: no-repeat;
+    background-position: 131px 55px;
+}
+
+.notes-card .assets{
+    padding-top: 45px;
+}
+
+.notes-card h3{
+    font-weight: 550;
+    color: #001931;
+    padding-top: 36px;
+    font-size: 24px;
+}
+
+.notes-card p{
+    font-weight: 200px;
+    color: #627382;
+    padding-top: 16px;
+    font-size: 16px;
+    padding-bottom: 45px;
+}
 
