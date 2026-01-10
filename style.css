@@ -80,6 +80,14 @@ nav ul li{
     font-weight: 500px;
 }
 
+#transparent{
+    cursor: pointer;
+}
+
+#transparent:hover{
+    background-color: #001931;
+}
+
 #gradient{
     padding: 9.5px 201px 9.5px 12px;
 }
@@ -266,7 +274,8 @@ nav ul li{
 }
 
 .content-btn .btn:hover{
-    background-color: transparent;
+    background-color: #001931;
+    color: white;
 }
 .list-container{
     display: flex;
