@@ -252,3 +252,37 @@ nav ul li{
 .list-content{
     padding-bottom: 16px;
 }
+
+#content{
+padding: 2px 120px 120px 120px;
+}
+
+.content-container{
+    max-width: 1360px;
+    max-height: 384px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content-part h3{
+    color: #001931;
+    font-weight: bold;
+    font-size: 48px;
+    padding-bottom: 16px;
+}
+
+.content-part p{
+    color: #627382;
+    font-weight: 200px;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 24px;
+}
+
+.content-btn p{
+    color: #627382;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 200px;
+    padding-top: 16px;
+}
